@@ -1,0 +1,57 @@
+<<< CODE GENERATOR >>> Processing Node program , Label is  
+<<< CODE GENERATOR >>> Processing Node dclns , Label is  
+<<< CODE GENERATOR >>> Processing Node dcln , Label is  
+       LIT    0             
+Incrementing Framesize to 1
+       LIT    0             
+Incrementing Framesize to 2
+       LIT    0             
+Incrementing Framesize to 3
+       LIT    0             
+Incrementing Framesize to 4
+<<< CODE GENERATOR >>> Processing Node block , Label is  
+<<< CODE GENERATOR >>> Processing Node assign , Label is  
+<<< CODE GENERATOR >>> Processing Node <integer> , Label is  
+       LIT    8             
+Incrementing Framesize to 5
+Decrementing Framesize to 4
+       SGV    1             
+<<< CODE GENERATOR >>> Processing Node assign , Label is  
+<<< CODE GENERATOR >>> Processing Node * , Label is  
+<<< CODE GENERATOR >>> Processing Node <identifier> , Label is  
+Incrementing Framesize to 5
+       LGV    1             
+<<< CODE GENERATOR >>> Processing Node <integer> , Label is  
+       LIT    5             
+Incrementing Framesize to 6
+       BOP    BMULT         
+Decrementing Framesize to 5
+Decrementing Framesize to 4
+       SGV    2             
+<<< CODE GENERATOR >>> Processing Node assign , Label is  
+<<< CODE GENERATOR >>> Processing Node + , Label is  
+<<< CODE GENERATOR >>> Processing Node <identifier> , Label is  
+Incrementing Framesize to 5
+       LGV    1             
+<<< CODE GENERATOR >>> Processing Node <integer> , Label is  
+       LIT    5             
+Incrementing Framesize to 6
+       BOP    BPLUS         
+Decrementing Framesize to 5
+Decrementing Framesize to 4
+       SGV    3             
+<<< CODE GENERATOR >>> Processing Node output , Label is  
+<<< CODE GENERATOR >>> Processing Node <identifier> , Label is  
+Incrementing Framesize to 5
+       LGV    2             
+       SOS    OUTPUT        
+Decrementing Framesize to 4
+       SOS    OUTPUTL       
+<<< CODE GENERATOR >>> Processing Node output , Label is  
+<<< CODE GENERATOR >>> Processing Node <identifier> , Label is  
+Incrementing Framesize to 5
+       LGV    3             
+       SOS    OUTPUT        
+Decrementing Framesize to 4
+       SOS    OUTPUTL       
+       HALT                 

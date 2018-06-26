@@ -1,0 +1,9 @@
+program fact:
+var m,n,fact,sum:integer;
+begin
+   n := 8;
+   fact := n * 5;
+   sum := n +5;
+   output(fact);
+   output(sum)
+end fact.

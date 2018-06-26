@@ -1,0 +1,21 @@
+       LIT    0             
+       LIT    0             
+       LIT    0             
+       LIT    0             
+       LIT    8             
+       SGV    1             
+       LGV    1             
+       LIT    5             
+       BOP    BMULT         
+       SGV    2             
+       LGV    1             
+       LIT    5             
+       BOP    BPLUS         
+       SGV    3             
+       LGV    2             
+       SOS    OUTPUT        
+       SOS    OUTPUTL       
+       LGV    3             
+       SOS    OUTPUT        
+       SOS    OUTPUTL       
+       HALT                 
